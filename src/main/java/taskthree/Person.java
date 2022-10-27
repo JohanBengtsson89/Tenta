@@ -1,5 +1,5 @@
 package taskthree;
-/** Det här är en klass för en Person */
+/** Det här är en klass för Person */
 
 public class Person {
 

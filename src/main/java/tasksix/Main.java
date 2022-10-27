@@ -62,6 +62,8 @@ public class Main {
             System.out.println("Fel svar ingen poäng");
         }
 
+        /**Skriver ut om användaren klarat provet*/
+
         if (point < 3 ){
             System.out.println("Du fick " + point + " poäng, du borde läsa på lite mer");
         } else if (point == 3) {

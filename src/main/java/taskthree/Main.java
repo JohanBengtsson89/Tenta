@@ -50,6 +50,7 @@ public class Main {
 
         } while (isRunning);
 
+        /** Läser in till JSON*/
         mapper.writeValue(Paths.get("src/main/resources/people.json").toFile(),people);
 
         for (Person p : people){

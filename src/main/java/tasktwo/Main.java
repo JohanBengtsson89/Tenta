@@ -2,6 +2,8 @@ package tasktwo;
 
 import java.util.Scanner;
 
+/** Uppgift 2 */
+
 public class Main {
     public static void main(String[] args) {
 
@@ -10,6 +12,7 @@ public class Main {
         char firstLetter = 'l';
         boolean isRunning = true;
 
+        /** Tar emot input från användare*/
         System.out.println("Skriv in ditt namn: ");
         name = sc.nextLine();
         firstLetter = name.charAt(0);
